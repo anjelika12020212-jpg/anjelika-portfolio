@@ -30,6 +30,7 @@ export const AboutSection: React.FC = () => {
     <section id="about" className="about-section" aria-labelledby="about-heading">
       <div className="section-header-compact">
         <span className="section-label">Обо мне</span>
+        <p className="about-author-name">{portfolioConfig.author.fullName}</p>
         <h2 id="about-heading" className="section-title">
           {about.title}
         </h2>

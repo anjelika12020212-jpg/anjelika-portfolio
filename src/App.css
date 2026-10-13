@@ -1066,6 +1066,15 @@
   width: 100%;
 }
 
+.about-author-name {
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: var(--color-text-main);
+  margin: 2px 0 10px;
+}
+
 .about-main-text {
   font-size: 18px;
   line-height: 1.6;
@@ -1252,12 +1261,12 @@ a.contact-value:hover {
 }
 
 .footer-text {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--color-text-muted);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
   overflow-wrap: break-word;
 }

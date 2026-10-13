@@ -28,7 +28,6 @@ export const WhatIDoSection: React.FC = () => {
   return (
     <section id="what-i-do" className="what-i-do-section" aria-labelledby="what-i-do-heading">
       <div className="section-header-compact">
-        <span className="section-label">Что я делаю</span>
         <h2 id="what-i-do-heading" className="section-title">
           Что я делаю
         </h2>

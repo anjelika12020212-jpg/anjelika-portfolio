@@ -44,6 +44,7 @@ export interface ProjectItem {
 export interface PortfolioConfig {
   author: {
     name: string;
+    fullName: string;
     role: string;
   };
   navigation: {
@@ -85,6 +86,7 @@ export interface PortfolioConfig {
 export const portfolioConfig: PortfolioConfig = {
   author: {
     name: 'Анжелика',
+    fullName: 'Анжелика Куркова',
     role: 'Цифровые продукты от идеи до запуска',
   },
 

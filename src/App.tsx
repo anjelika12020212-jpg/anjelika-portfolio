@@ -60,14 +60,14 @@ export function App() {
         {/* Первый экран (Hero) */}
         <Hero onNavigate={scrollToSection} />
 
+        {/* Раздел «Обо мне» */}
+        <AboutSection />
+
         {/* Раздел проектов */}
         <ProjectsSection onOpenDetails={handleOpenDetails} />
 
         {/* Раздел «Что я делаю» */}
         <WhatIDoSection />
-
-        {/* Раздел «Обо мне» */}
-        <AboutSection />
 
         {/* Раздел «Контакты» */}
         <ContactsSection />

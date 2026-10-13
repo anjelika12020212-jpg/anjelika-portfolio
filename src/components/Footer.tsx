@@ -10,8 +10,6 @@ export const Footer: React.FC = () => {
         <p className="footer-text">
           <span className="footer-name">{portfolioConfig.author.name}</span>
           <span className="footer-separator">·</span>
-          <span>{portfolioConfig.author.role}</span>
-          <span className="footer-separator">·</span>
           <span>{currentYear}</span>
         </p>
       </div>
